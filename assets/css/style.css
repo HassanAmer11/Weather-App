@@ -1,0 +1,170 @@
+body {
+    font-family: Roboto,
+        "Open Sans",
+        sans-serif;
+}
+
+.btn-blue {
+    background-color: #009ad8 !important;
+}
+
+.main-color {
+    color: #009ad8;
+}
+
+.bg-dark {
+    background-color: #1e202b !important
+}
+
+.text-gray {
+    color: rgb(191, 193, 200);
+}
+
+ul.nav-ul {
+    background-color: #262936;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+.nav-ul .nav-item {
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #4c4e5b;
+}
+
+.nav-ul .nav-item:last-child {
+    border-bottom: none;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link.active {
+    color: #009ad8 !important;
+}
+
+
+
+.bg-img {
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-size: cover;
+    min-height: 325px;
+}
+
+.navbar-brand small {
+    font-size: 10px;
+}
+
+.input-group>.form-control:focus,
+.input-group>.form-floating:focus-within,
+.input-group>.form-select:focus {
+    z-index: 0;
+}
+
+.over-layer {
+    margin-top: -150px;
+}
+
+input.form-control::placeholder {
+    color: gray;
+    opacity: 1;
+}
+
+.card {
+    min-height: 100%;
+}
+
+.card:nth-child(odd) {
+    background-color: #323544 !important;
+}
+
+.card.bg-secondary .card-header {
+    background-color: #2d303d;
+}
+
+.bg-secondary,
+.card:nth-child(even) {
+    background-color: #262936 !important;
+}
+
+.card.bg-dark .card-header {
+    background-color: #262936;
+}
+
+.card-text {
+    font-size: 90px;
+}
+
+.social-links a {
+    padding: 12px 11px;
+    color: #009ad8;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    background: #009ad8 !important;
+    color: #fff;
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+
+    ul.nav-ul {
+        background-color: transparent;
+        border: radius 0;
+        flex-direction: row;
+    }
+
+    .nav-ul .nav-item {
+        border: none;
+    }
+
+    .nav-link.active {
+        border: 1px solid #009ad8;
+        border-radius: var(--bs-border-radius-pill) !important;
+        color: #009ad8 !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.fixed-height{
+    height: 220px;
+}
+.oops {
+    font-size: 120px;
+}
+
+.h-nfound{
+    font-size: 80px;
+}
+
+.p-nfoun{
+    font-size: 40px;
+}
+
+#contact .form-control,#contact .form-control:focus{
+    background-color: transparent !important;
+    color: #fff !important;
+}
